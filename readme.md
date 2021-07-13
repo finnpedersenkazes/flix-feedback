@@ -30,7 +30,7 @@ But the error message tells me what is wrong, so I fix it.
 ## Installation of Java
 Before using Flix in Visual Studio Code, you need to have installed Java 16.
 
-*In my first attempt, I installed the wrong version (1.8) of Java. It was both confusion and frustrating.*
+*In my first attempt, I installed the wrong version (1.8) of Java. It was both confusing and frustrating.*
 
 ### Check that Java is installed
 
@@ -78,7 +78,9 @@ Open Visual Studio Code and install the [Visual Studio Code extension for Flix](
 
 The trick is to open Visual Studio Code from the terminal with the folder name as argument. 
 
-`code example02` 
+````
+code example02
+````
 
 Then you click Run. The link just above `def main`.
 
@@ -121,10 +123,6 @@ So that would be a good exercise to change that.
 I also like the code to be easy to read with a high level of abstraction, so I introduce 
 type aliases for `Float` and `Int`, and a function that returns the value of *pi*. I don't know yet, why the main function has to return an integer, but I roll with it and introduces a function that returns an integer. 
 
-The output is
-
- `Circle Area = 50.26548245743669`. 
-
 ````
 /// Type alias for Float and Int
 type alias Decimal = Float
@@ -159,6 +157,9 @@ def main(_args: Array[String]): Integer & Impure =
     println("Circle Area = ${circleArea}");
     one()
 ````
+The output is
+
+ `Circle Area = 50.26548245743669`. 
 
 ## Fibonacci
 The Fibonacci function is always a good test of a programming language. 
@@ -216,9 +217,11 @@ than anyone else.
 
 So the question is what family of applications can Flix solve better than anyone else?
 
+**Suggestion**: 
+Provide examples where Flix is more elegant than any other language. 
 
 ## First Impression
-Compare to the [Flix front page](https://flix.dev/) with the [Elm front page](https://elm-lang.org/). Look at how welcoming and approchable Elm is. So much nicer. 
+Compare the [Flix front page](https://flix.dev/) with the [Elm front page](https://elm-lang.org/). Look at how welcoming and approchable Elm is. So much nicer. 
 
 **Suggestion**: Create a much simpler front page and ensure that the new users get a successful experience right from the start. Move the less important information to a separate page about the history and inspiration for the language. 
 
@@ -237,6 +240,7 @@ Compare to the [Flix front page](https://flix.dev/) with the [Elm front page](ht
 Java is not installed by default on either Windows 10 or MacOS, and there is confusion about what exactly to install. So installing and making sure that it works, before installing the Visual Code Extension, is key to a good first impression. I was tricked into installing Java 8 (1.8) at first. 
 
 **Suggestion**: 
+
 Write a section on how to install Java, with links to the official download pages and how to check that the right version is installed. 
 
 ## Data Types
@@ -245,6 +249,7 @@ This is actually not specific to Flix.
 Why do we abbreviate the data types? This is not helpful.
 
 **Suggestion**: 
+
 We write `String`, so we should write `Integer` and `Boolean`. 
 Abbreviating them does not help the new developer and we don't need to save characters. Elm has the same problem with unnecessary abbreviations like `Msg`, `Cmd`, `Int`, `Bool` ...  
 
@@ -262,6 +267,7 @@ type alias Integer = Int
 Flix proposes `Int8`, `Int16`, `Int32`, `Int64`, and `BigInt`. Is this because of the Java implementation? Do we, as developers, really need to know this level detail? 
 
 **Suggestion**: 
+
 I would advocate for a higher level of abstraction and I have seen how letting the developer decide on the length is a source of error. 
 Further you need conversion functions. This an unnecessary loss of focus. 
 
@@ -271,11 +277,13 @@ Keep it simple: `Integer` and `BigInteger` should be enough and similar for othe
 All these abbreviations makes programming a closed club anchered in the past. Let's move on and make the code intuitive and easy to read for the new programmer and everyone else. 
 
 **Suggestion**: 
+
 Why don't we write `define` or `function` instead of `def`. 
 And so on. 
 
 ## GitHub
 **Suggestion**: 
+
 Get GitHub to recognize Flix as a language. I presume this will come in time. 
 
 
