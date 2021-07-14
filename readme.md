@@ -199,6 +199,8 @@ Tony likes both rain and snow.
 
 Who among the members are climbers?
 
+*Source: I don't know the original source for the Alpine Club, but the example is still used.*
+
 ![The Alpine Club](images/TheAlpineClub.png)
 
 
