@@ -218,12 +218,15 @@ than anyone else.
 So the question is what family of applications can Flix solve better than anyone else?
 
 **Suggestion**: 
+
 Provide examples where Flix is more elegant than any other language. 
 
 ## First Impression
 Compare the [Flix front page](https://flix.dev/) with the [Elm front page](https://elm-lang.org/). Look at how welcoming and approchable Elm is. So much nicer. 
 
-**Suggestion**: Create a much simpler front page and ensure that the new users get a successful experience right from the start. Move the less important information to a separate page about the history and inspiration for the language. 
+**Suggestion**: 
+
+Create a much simpler front page and ensure that the new users get a successful experience right from the start. Move the less important information to a separate page about the history and inspiration for the language. 
 
 ## Playground
 
@@ -264,7 +267,7 @@ type alias Integer = Int
 ````
 
 ### Size of Integers
-Flix proposes `Int8`, `Int16`, `Int32`, `Int64`, and `BigInt`. Is this because of the Java implementation? Do we, as developers, really need to know this level detail? 
+Flix proposes `Int8`, `Int16`, `Int32`, `Int64`, and `BigInt`. Is this because of the Java implementation? Do we, as developers, really need to know this level of detail? 
 
 **Suggestion**: 
 
