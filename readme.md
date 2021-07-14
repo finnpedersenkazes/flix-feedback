@@ -38,8 +38,7 @@ Open the Terminal and type: `java -version`
 
 ![Image of Terminal. Java is not installed](images/JavaNotInstalled.png)
 
-If Java is not installed or you have the wrong version, you will see this: 
-At the very buttom it says: 
+If Java is not installed or you have the wrong version, you will see, at the very buttom, it says: 
 
 ```
 Requires Java 11 (or later).
