@@ -20,11 +20,6 @@ So this is my reference when I decided to take a closer look at [flix.dev](https
 After a quick look at the front page, I decide to click Playground.
 There is an example. I click Compile & Run. 
 
-![Image of Playground](images/PlaygroundErr.png)
-
-There is a Type Error. This is frustrating and gives a bad first impression.
-But the error message tells me what is wrong, so I fix it.  
-
 ![Image of Playground](images/PlaygroundOK.png)
 
 ## Installation of Java
