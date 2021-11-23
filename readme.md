@@ -25,7 +25,7 @@ There is an example. I click Compile & Run.
 ## Installation of Java
 Before using Flix in Visual Studio Code, you need to have installed Java 16.
 
-*In my first attempt, I installed the wrong version (1.8) of Java. It was both confusing and frustrating.*
+*In my first attempt, I installed the wrong version (1.8) of Java.*
 
 ### Check that Java is installed
 
