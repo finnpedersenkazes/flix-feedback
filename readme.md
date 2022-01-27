@@ -227,7 +227,6 @@ Create a much simpler front page and ensure that the new users get a successful 
 ## Playground
 
 **Suggestion**: 
-- Get the example in the Playground to work.
 - Make all the examples available in the Playground, so that you can play with them.
 - Have more Datalog examples.
 
